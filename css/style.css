@@ -241,3 +241,33 @@ main{
 	background: var(--main-light);
 
 }
+/*=====================歌手页面========================*/
+.singer-title h3{
+	text-align: center;
+}
+.songs.section-wrapper{
+	margin-top: 2rem;
+}
+.album.section-wrapper{
+	margin-top: 2rem;
+}
+
+.songs-item{
+	margin-top: 1.5rem;
+}
+
+.songs-item hr{
+	margin-bottom: 1.5rem;
+}
+
+.songs-item h4{
+	text-align: center;
+}
+
+.songs-item p{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+.album-item{
+	text-align: center;
+}
