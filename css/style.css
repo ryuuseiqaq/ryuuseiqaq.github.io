@@ -231,6 +231,7 @@ main{
 
 .category-items{
 	display: grid;
+	justify-items: center;
 	grid-template-columns: repeat(auto-fit,minmax(100px,2fr));
 	grid-gap: 0.7rem;
 	padding: 1.3rem 0rem;
@@ -253,21 +254,21 @@ main{
 }
 
 .songs-item{
-	margin-top: 1.5rem;
+	margin-top: 0.5rem;
+	text-align: center;
+
 }
 
 .songs-item hr{
 	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
 }
 
-.songs-item h4{
-	text-align: center;
-}
+/*.songs-item h4{*/
+/*	text-align: center;*/
+/*}*/
 
 .songs-item p{
 	text-align: center;
 	margin-bottom: 1.5rem;
-}
-.album-item{
-	text-align: center;
 }
